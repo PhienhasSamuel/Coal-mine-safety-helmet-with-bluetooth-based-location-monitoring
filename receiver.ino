@@ -4,11 +4,11 @@
 #include <HTTPClient.h>
 
 // WiFi Credentials
-const char* ssid = "Wifi_2gfh";
-const char* password = "SAMisNOOB";
+const char* ssid = "your_wifi_ssid";
+const char* password = "your_wifi_password";
 
 // Flask Server URL
-const char* serverUrl = "http://192.168.153.75:5000/data"; // Update with your Flask server IP
+const char* serverUrl = "**********"; // Update with your Flask server IP
 
 // LoRa Pin Definitions
 const int csPin = 5;
